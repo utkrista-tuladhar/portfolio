@@ -9,6 +9,7 @@ const plugins = [react(), tailwindcss()];
 
 export default defineConfig({
   plugins: plugins,
+  base: process.env.NODE_ENV === 'production' ? "/portfolio" : "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
