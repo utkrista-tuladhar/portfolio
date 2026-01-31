@@ -26,6 +26,7 @@ import { projectsData, openSourceProjects, personalProjects } from "@/data/proje
 import { technicalSkills, toolsAndSkills, languages } from "@/data/skills";
 import { contactData, quickFacts } from "@/data/contact";
 import { clientsData } from "@/data/clients";
+import heroBackground from '@/assets/hero-bg.png';
 
 // Animated Section Wrapper Component
 function AnimatedSection({
@@ -183,7 +184,7 @@ export default function Home() {
       <section
         className="relative min-h-screen flex items-center pt-16 overflow-hidden"
         style={{
-          backgroundImage: theme === 'dark' ? `url(${import.meta.env.BASE_URL}assets/hero-bg.png)` : "none",
+          backgroundImage: theme === 'dark' ? `url(${heroBackground})` : "none",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
@@ -221,7 +222,7 @@ export default function Home() {
                 Get in Touch
               </Button>
               <a
-                href={`${import.meta.env.BASE_URL}assets/Utkrista-Tuladhar-Resume.pdf`}
+                href={`/assets/Utkrista-Tuladhar-Resume.pdf`}
                 download="Utkrista-Tuladhar-Resume.pdf"
                 className="inline-flex items-center justify-center px-4 py-2 border border-accent text-accent hover:bg-accent/10 rounded-md transition-colors font-medium"
               >
