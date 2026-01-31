@@ -19,6 +19,7 @@
     "@types/node": "^25.1.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.0",
+    "cmdk": "^1.1.1",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.29.2",
     "gh-pages": "^6.3.0",
@@ -28,12 +29,14 @@
     "postcss": "^8.5.6",
     "radix-ui": "^1.4.3",
     "react": "^19.1.1",
+    "react-day-picker": "^9.13.0",
     "react-dom": "^19.1.1",
     "react-hook-form": "^7.71.1",
     "react-resizable-panels": "^4.5.6",
     "recharts": "^3.7.0",
     "sonner": "^1.4.0",
     "tailwind-merge": "^2.2.0",
+    "vaul": "^1.1.2",
     "wouter": "^3.0.0"
   },
   "devDependencies": {
